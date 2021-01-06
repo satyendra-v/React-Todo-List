@@ -1,0 +1,41 @@
+.main .header input {
+    padding: 10px;
+    font-size: 16px;
+    width: 165px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 5px;;
+}
+.main .header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px solid #0066FF;
+    border-radius: 5px;
+    outline: none;
+}
+.main .header button:hover {
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+}
+.main .list {
+    list-style: none;
+    padding-left: 0;
+    width: 250px;
+} 
+.main .list li {
+    color: #333;
+    background-color: lightblue;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    list-style: none;
+}
+ul.list {
+    padding: 0;
+}
